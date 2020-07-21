@@ -11,12 +11,17 @@ export default function Directory() {
         { title: "Last Name", field: "lastName" },
         { title: "Email", field: "email" },
         { title: "Birth Year", field: "birthYear", type: "numeric" },
-        { title: "Phone Number", field: "phoneNumber", type: "numeric" },
+        { title: "Job Title", field: "jobTitle" },
         
       ]}
       data={[
-        { image: <img src="https://upload.wikimedia.org/wikipedia/en/d/dc/MichaelScott.png" alt="Employee" width="150px" height="150px"></img>, firstName: "Michael", lastName:"Scott", email: "theSCARN@gmail.com", birthYear: 1964, phoneNumber: 8675309 },
-        { image: <img src="https://vignette.wikia.nocookie.net/theoffice/images/e/e9/Character_-_JimHalpert.PNG/revision/latest?cb=20200414162003" alt="Employee" width="150px" height="150px"></img>, firstName: "Jim", lastName:"Halpert", email: "smirk@gmail.com", birthYear: 1975, phoneNumber: 5553430 },
+        { image: <img src="*" alt="Employee" width="150px" height="150px"></img>, firstName: "Michael", lastName:"Scott", email: "theSCARN@gmail.com", birthYear: 1964, jobTitle: "Regional Manager" },
+        { image: <img src="../assets/jim.jpg" alt="Employee" width="150px" height="150px"></img>, firstName: "Jim", lastName:"Halpert", email: "Smirk@gmail.com", birthYear: 1978, jobTitle: "Assistant Regional Manager" },
+        { image: <img src="./assets/andy.jpg" alt="Employee" width="150px" height="150px"></img>, firstName: "Andy", lastName:"Bernard", email: "NardDog@gmail.com", birthYear: 1973, jobTitle: "Sales Man" },
+        { image: <img src="./assets/angela.jpg" alt="Employee" width="150px" height="150px"></img>, firstName: "Angela", lastName:"Martin", email: "RIPSparkles@gmail.com", birthYear: 1974, jobTitle: "Accountant" },
+        { image: <img src="./assets/creed.jpg" alt="Employee" width="150px" height="150px"></img>, firstName: "Creed", lastName:"Bratton", email: "CreedThoughts@gmail.com", birthYear: 1925, jobTitle: "Quality Assurance" },
+        { image: <img src="./assets/darryl.jpg" alt="Employee" width="150px" height="150px"></img>, firstName: "Darryl", lastName:"Philbin", email: "YallHavinBirthdayCake@gmail.com", birthYear: 1972, jobTitle: "Warehouse Foreman" },
+
       ]}        
       options={{
         sorting: true
